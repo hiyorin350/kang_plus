@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python デバッガー: 現在のファイル",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/hiyori/kang_plus_lab/sampleCode",
+      "program": "/Users/hiyori/kang_plus_lab/sampleCode/build/Debug/outDebug"
+    }
+  ]
+}
